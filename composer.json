@@ -1,9 +1,9 @@
 {
   "name": "iampersistent/get-off-my-case",
   "type": "library",
-  "description": "",
+  "description": "Convert strings to different cases",
   "keywords": [],
-  "license": "",
+  "license": "MIT",
   "config": {
     "sort-packages": true
   },
