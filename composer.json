@@ -1,0 +1,28 @@
+{
+  "name": "iampersistent/get-off-my-case",
+  "type": "library",
+  "description": "",
+  "keywords": [],
+  "license": "",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "require-dev": {
+    "codeception/codeception": "^4.0",
+    "codeception/module-asserts": "^1.0.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "GetOffMyCase\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Unit\\": "tests/unit"
+    }
+  }
+}
